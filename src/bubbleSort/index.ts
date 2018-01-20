@@ -23,9 +23,9 @@ export function bubbleSort<T>(array: T[], cmp: (fisrt: T, second: T) => number =
   array = [...array];
 
   for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length - 1; j++) {
-      if (cmp(array[j], array[j + 1]) < 0) {
-        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+    for (let j = i; j > 0; j--) {
+      if (cmp(array[j], array[j - 1]) < 0) {
+        [array[j], array[j - 1]] = [array[j - 1], array[j]];
       };
     }
   }

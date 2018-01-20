@@ -10,7 +10,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "tsc -w"
+    "start": "tsc -w",
+    "build": "rollup -c rollup.config.ts"
   },
   "devDependencies": {
     "@types/node": "^9.3.0",

@@ -1,3 +1,7 @@
+function comparator(first: any, second: any): number {
+  return first - second;
+}
+
 /**
  * Bubble sort algorithm.
  * Complexity: O(N^2).
@@ -15,12 +19,14 @@
  * zero, or positive value, depending on the arguments.
  * @return {Array} Sorted array.
  */
-export function bubbleSort(array: number[]): number[] {
+export function bubbleSort<T>(array: T[], cmp: (fisrt: T, second: T) => number = comparator): T[] {
   array = [...array];
 
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length - 1; j++) {
-      if(array[j] > array[j + 1]) [array[j], array[j + 1]] = [array[j + 1], array[j]];
+      if (cmp(array[j], array[j + 1]) < 0) {
+        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+      };
     }
   }
 

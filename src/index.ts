@@ -6,3 +6,4 @@ export { mergeSort } from './mergeSort';
 export { insertionSort} from './insertionSort';
 export { shuffle } from './shuffle';
 export { sieveOfEratosthenes } from './sieveOfEratosthenes';
+export { selectionSort } from './selectionSort';

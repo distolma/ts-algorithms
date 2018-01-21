@@ -5,16 +5,15 @@
  * Time complexity: O(N).
  *
  * @example
- * var shuffle = require('path-to-algorithms/src/shuffle' +
- * '/richarddurstenfeld').shuffle;
+ * var shuffle = require('path-to-algorithms/src/shuffle').shuffle;
  * console.log(shuffle([1, 2, 3, 4, 5])); // random shuffled
  *
  * @public
- * @module shuffle/richarddurstenfeld
+ * @module shuffle
  * @param {Array} array An array which should be shuffled.
  * @return {Array} Shuffled array.
  */
-export function richardDurstenfeldShuffle<T>(array: T[]): T[] {
+export function shuffle<T>(array: T[]): T[] {
   array = [...array];
   const size = array.length - 1;
   let randomIndex: number;

@@ -4,5 +4,4 @@ export { factorial } from './factorial';
 export { bubbleSort } from './bubbleSort';
 export { mergeSort } from './mergeSort';
 export { insertionSort} from './insertionSort';
-export { fisherYatesShuffle } from './fisherYatesShuffle';
-export { richardDurstenfeldShuffle } from './richardDurstenfeldShuffle/index';
+export { shuffle } from './shuffle';

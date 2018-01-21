@@ -1,13 +1,13 @@
-import { fisherYatesShuffle } from "./index";
+import { shuffle } from "./index";
 
-describe('fisherYatesShuffle', () => {
+describe('shuffle', () => {
   const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   const stringArray = 'Sed ut perspiciatis iste natus error sit voluptatem'.split(' ');
 
   it('should return shuffeled array of numbers', () => {
     const reducer = (acc: number, curr: number) => acc + curr;
 
-    const result = fisherYatesShuffle(numberArray);
+    const result = shuffle(numberArray);
 
     expect(result).not.toBe(numberArray);
     expect(result.length).toEqual(numberArray.length);
@@ -15,7 +15,7 @@ describe('fisherYatesShuffle', () => {
   });
 
   it('should return shuffeled array of strings', () => {
-    const result = fisherYatesShuffle(stringArray);
+    const result = shuffle(stringArray);
 
     expect(result).not.toBe(stringArray);
     expect(result.length).toEqual(stringArray.length);

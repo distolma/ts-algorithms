@@ -2,7 +2,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import sourceMaps from 'rollup-plugin-sourcemaps';
 import typescript from 'rollup-plugin-typescript2';
-import camelCase from 'lodash/camelCase';
+import camelCase from 'lodash-es/camelCase';
 
 const pkg = require('./package.json')
 

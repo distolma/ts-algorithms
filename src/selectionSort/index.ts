@@ -27,11 +27,11 @@ export function selectionSort<T>(array: T[], cmp: (fisrt: T, second: T) => numbe
 
   for (let i = 0; i < size; i++) {
     min = i;
-    
+
     for (let j = i + 1; j < size; j++) {
       if (cmp(array[min], array[j]) > 0) min = j;
     }
-    
+
     [array[i], array[min]] = [array[min], array[i]];
   }
 

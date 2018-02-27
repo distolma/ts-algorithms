@@ -23,6 +23,6 @@ export function fizzBuzz(num: number) {
     else if (i % 5 === 0) result.push('Buzz');
     else result.push(i);
   }
-  
+
   return result;
 }

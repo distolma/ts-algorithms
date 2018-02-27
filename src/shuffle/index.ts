@@ -17,7 +17,7 @@ export function shuffle<T>(array: T[]): T[] {
   array = [...array];
   const size = array.length - 1;
   let randomIndex: number;
-  
+
   for (let i = size; i >= 0; i--) {
     randomIndex = Math.floor(Math.random() * size);
     [array[i], array[randomIndex]] = [array[randomIndex], array[i]];

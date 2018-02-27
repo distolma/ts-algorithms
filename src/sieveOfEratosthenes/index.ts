@@ -30,7 +30,7 @@ export function sieveOfEratosthenes(num: number): number[] {
 
   for (let i = 2; i <= Math.sqrt(num); i++) {
     for (let j = 2; j * i <= num; j++) {
-     primes[i * j] = false; 
+      primes[i * j] = false;
     }
   }
 

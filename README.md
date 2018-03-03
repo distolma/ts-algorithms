@@ -25,6 +25,8 @@ Inspired by [javascript-algorithms](https://github.com/mgechev/javascript-algori
 - [ ] Anagrams
 - [ ] Capitalization
 - [ ] Binary Search Tree
+- [ ] Debounce
+- [ ] Throttle
 - [ ] ...
 
 

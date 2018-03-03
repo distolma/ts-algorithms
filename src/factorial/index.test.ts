@@ -1,4 +1,4 @@
-import { factorial } from "./index";
+import { factorial } from './index';
 
 describe('factorial', () => {
   it('should return 1', () => {

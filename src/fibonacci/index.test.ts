@@ -1,4 +1,4 @@
-import { fibonacci } from "./index";
+import { fibonacci } from './index';
 
 describe('fibonacci', () => {
   it('should return 1', () => {

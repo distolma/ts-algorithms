@@ -1,4 +1,4 @@
-import { insertionSort } from "./index";
+import { insertionSort } from './index';
 
 describe('insertionSort', () => {
   const UnsortedArrayOfNumber = [1, 0, -6, 3, 5, 8, 9, 3, 1, 5, 6, -8, 0, 6, 4];

@@ -32,5 +32,5 @@ export function insertionSort<T>(array: T[], cmp: (fisrt: T, second: T) => numbe
     array[j + 1] = current;
   }
 
-  return array
+  return array;
 }

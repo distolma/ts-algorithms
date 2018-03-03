@@ -1,4 +1,4 @@
-import { sieveOfEratosthenes } from "./index";
+import { sieveOfEratosthenes } from './index';
 
 describe('sieveOfEratosthenes', () => {
   it('should return array of numbers', () => {

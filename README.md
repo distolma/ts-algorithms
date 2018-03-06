@@ -27,6 +27,12 @@ Inspired by [javascript-algorithms](https://github.com/mgechev/javascript-algori
 - [ ] Binary Search Tree
 - [ ] Debounce
 - [ ] Throttle
+- [ ] Binary Tree
+- [ ] Binary Search Tree
+- [ ] Hash Map
+- [ ] Linked List
+- [ ] Permute
+- [ ] isPrime
 - [ ] ...
 
 
